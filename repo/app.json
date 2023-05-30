@@ -3,7 +3,7 @@
 		"repoName": "LaZy 🇻🇳",
 		"repoIcon": "https://thanhtungipa.github.io/img/Logolazy.PNG"
 	},
-"Tweaked Apps": [{
+"Tweaked ": [{
 		"name": "Ulike Pro",
 		"version": "Liếm",
 		"icon": "https://thanhtungipa.github.io/img/ulike.jpg",
@@ -12,7 +12,7 @@
 		"description": "Mua Chứng Chỉ Liên Hệ Zalo 0369171709 😍",
 		"bundleID": "com.ulike.app",
 		"screenshots": [
-            "https://lazyvn.github.io/img/lazydemo.png",
+            "https://thanhtungipa.github.io/img/demoaov.png",
         ],
         "changelog": "LaZy 🇻🇳",
         "contact": {
@@ -28,7 +28,7 @@
 		"description": "Mua Chứng Chỉ Liên Hệ Zalo 0369171709 😍",
 		"bundleID": "com.youtobe.killer.app",
 		"screenshots": [
-            "https://lazyvn.github.io/img/lazydemo.png",
+            "https://thanhtungipa.github.io/img/demoaov.png",
         ],
         "changelog": "LaZy 🇻🇳",
         "contact": {
@@ -43,7 +43,7 @@
 		"category": "Tweaked Apps",
 		"description": "Mua Chứng Chỉ Liên Hệ Zalo 0369171709 😍",
 		"screenshots": [
-            "https://lazyvn.github.io/img/lazydemo.png",
+            "https://thanhtungipa.github.io/img/demoaov.png",
         ],
         "changelog": "LaZy 🇻🇳",
         "contact": {
@@ -60,7 +60,7 @@
 		"bundleID" : "com.aovoggy.app",
 		"screenshots": [
             "https://thanhtungipa.github.io/img/Aovimg.PNG",
-            "https://lazyvn.github.io/img/lazydemo.png"
+            "https://thanhtungipa.github.io/img/demoaov.png"
         ],
         "changelog": "LaZy 🇻🇳",
         "contact": {
@@ -78,7 +78,7 @@
 		"bundleID" : "com.alight.app",
 		"screenshots": [
             "https://thanhtungipa.github.io/img/alightmotion.png",
-            "https://lazyvn.github.io/img/lazydemo.png"
+            "https://thanhtungipa.github.io/img/demoaov.png"
         ],
         "changelog": "LaZy 🇻🇳",
         "contact": {
@@ -95,7 +95,7 @@
         "bundleID" : "com.picsart.app",
 		"screenshots": [
             "https://thanhtungipa.github.io/img/editpicsart.jpg",
-            "https://lazyvn.github.io/img/lazydemo.png"
+            "https://thanhtungipa.github.io/img/demoaov.png"
         ],
         "changelog": "LaZy 🇻🇳",
         "contact": {
@@ -113,7 +113,7 @@
 			"bundleID": "com.odysseyteam.taurine",
 			"screenshots": [
 				"https://taurine.app/assets/images/iphones.png",
-				"https://lazyvn.github.io/img/lazydemo.png"
+				"https://taurine.app/assets/images/iphone.png"
 			],
 			"contact": {
                 "web": "https://thanhtungipa.github.io/",
@@ -129,7 +129,7 @@
         "bundleID" : "com.picsart.app",
 		"screenshots": [
             "https://thanhtungipa.github.io/img/edityoutobe.jpg",
-            "https://lazyvn.github.io/img/lazydemo.png"
+            "https://thanhtungipa.github.io/img/demoaov.png"
         ],
         "changelog": "LaZy 🇻🇳",
         "contact": {
@@ -147,7 +147,7 @@
 		"screenshots": [
             "https://thanhtungipa.github.io/img/iggcrack1.jpg",
             "https://thanhtungipa.github.io/img/iggcrack.jpg",
-			"https://lazyvn.github.io/img/lazydemo.png"
+			"https://thanhtungipa.github.io/img/demoaov.png"
         ],
         "changelog": "LaZy 🇻🇳",
         "contact": {
@@ -164,7 +164,7 @@
         "bundleID" : "com.blacklist.app",
 		"screenshots": [
             "https://thanhtungipa.github.io/img/Blacklist.PNG",
-            "https://lazyvn.github.io/img/lazydemo.png"
+            "https://thanhtungipa.github.io/img/demoaov.png"
         ],
         "changelog": "LaZy 🇻🇳",
         "contact": {
@@ -181,7 +181,7 @@
         "bundleID" : "com.netflix.app",
 		"screenshots": [
             "https://thanhtungipa.github.io/img/nextflix.png",
-            "https://lazyvn.github.io/img/lazydemo.png"
+            "https://thanhtungipa.github.io/img/demoaov.png"
         ],
         "changelog": "LaZy 🇻🇳",
         "contact": {
@@ -198,7 +198,7 @@
         "bundleID" : "com.terabox.app",
 		"screenshots": [
             "https://thanhtungipa.github.io/img/Terabox.jpg",
-            "https://lazyvn.github.io/img/lazydemo.png"
+            "https://thanhtungipa.github.io/img/demoaov.png"
         ],
         "changelog": "LaZy 🇻🇳",
         "contact": {
@@ -215,7 +215,7 @@
         "bundleID" : "com.tiktok.app",
 		"screenshots": [
             "https://thanhtungipa.github.io/img/tiktok.jpg",
-            "https://lazyvn.github.io/img/lazydemo.png"
+            "https://thanhtungipa.github.io/img/demoaov.png"
         ],
         "changelog": "LaZy 🇻🇳",
         "contact": {
@@ -232,7 +232,7 @@
         "bundleID" : "com.mega.app",
 		"screenshots": [
             "https://thanhtungipa.github.io/img/mega.png",
-            "https://lazyvn.github.io/img/lazydemo.png"
+            "https://thanhtungipa.github.io/img/demoaov.png"
         ],
         "changelog": "LaZy 🇻🇳",
         "contact": {
@@ -249,7 +249,7 @@
         "bundleID" : "com.capcut.app",
 		"screenshots": [
             "https://thanhtungipa.github.io/img/F340311B-0CB1-4A11-A40F-77AF174CC664.png",
-            "https://lazyvn.github.io/img/lazydemo.png"
+            "https://thanhtungipa.github.io/img/demoaov.png"
         ],
         "changelog": "LaZy 🇻🇳",
         "contact": {
@@ -266,7 +266,7 @@
         "bundleID" : "com.messenger.app",
 		"screenshots": [
             "https://thanhtungipa.github.io/img/messenger.jpg",
-            "https://lazyvn.github.io/img/lazydemo.png"
+            "https://thanhtungipa.github.io/img/demoaov.png"
         ],
         "changelog": "LaZy 🇻🇳",
         "contact": {
@@ -283,7 +283,7 @@
         "bundleID" : "com.spectra.app",
 		"screenshots": [
             "https://thanhtungipa.github.io/img/spectra.jpg",
-            "https://lazyvn.github.io/img/lazydemo.png"
+            "https://thanhtungipa.github.io/img/demoaov.png"
         ],
         "changelog": "LaZy 🇻🇳",  
         "contact": {
@@ -300,7 +300,7 @@
         "bundleID" : "com.zalo2.app",
 		"screenshots": [
             "https://thanhtungipa.github.io/img/editzalo.jpg",
-            "https://lazyvn.github.io/img/lazydemo.png"
+            "https://thanhtungipa.github.io/img/demoaov.png"
         ],
         "changelog": "LaZy 🇻🇳",
         "contact": {
@@ -317,7 +317,7 @@
         "bundleID" : "com.zalo2.app",
 		"screenshots": [
             "https://thanhtungipa.github.io/img/Pro%20Cam.jpg",
-            "https://lazyvn.github.io/img/lazydemo.png"
+            "https://thanhtungipa.github.io/img/demoaov.png"
         ],
         "changelog": "LaZy 🇻🇳",
         "contact": {
@@ -334,7 +334,7 @@
         "bundleID" : "com.zalo2.app",
 		"screenshots": [
             "https://thanhtungipa.github.io/img/spotify.png",
-            "https://lazyvn.github.io/img/lazydemo.png"
+            "https://thanhtungipa.github.io/img/demoaov.png"
         ],
         "changelog": "LaZy 🇻🇳",
         "contact": {
@@ -351,7 +351,7 @@
         "bundleID" : "com.zalo2.app",
 		"screenshots": [
             "https://thanhtungipa.github.io/img/videoslapedit.png",
-            "https://lazyvn.github.io/img/lazydemo.png"
+            "https://thanhtungipa.github.io/img/demoaov.png"
         ],
         "changelog": "LaZy 🇻🇳",
         "contact": {
@@ -368,7 +368,7 @@
         "bundleID" : "com.GoogleEarth.app",
 		"screenshots": [
             "https://lazyvn.github.io/img/googleearth1.png",
-            "https://lazyvn.github.io/img/lazydemo.png"
+            "https://thanhtungipa.github.io/img/demoaov.png"
         ],
         "changelog": "LaZy 🇻🇳",
         "contact": {
@@ -385,32 +385,31 @@
         "bundleID" : "com.GoogleEarth.app",
 		"screenshots": [
             "https://lazyvn.github.io/img/dynamiccow.png",
-            "https://lazyvn.github.io/img/dynamiccow1.png",
-			"https://lazyvn.github.io/img/lazydemo.png"
+            "https://lazyvn.github.io/img/dynamiccow1.png"
         ],
         "changelog": "LaZy 🇻🇳",
         "contact": {
 			"web": "https://thanhtungipa.github.io/",
 			"twitter": "https://www.facebook.com/179io.mtt/"
 		}    
-    },{
-		"name" : "Nicegram VIP",
+    },,{
+        "name" : "Nicegram Premium",
 		"version" : "Liếm",
 		"icon" : "https://lazyvn.github.io/img/nicegramlogo.png",
-		     "down" : "https://archive.org/download/in-shot-lazy-1.67.0-1685402522/inShot%20Lazy%F0%9F%87%BB%F0%9F%87%B3_1.67.0_1685402522.ipa",
-	    "category" : "Tweaked Apps",
+    		"down" : "https://archive.org/download/nicegram-1.2.6-1685402582/Nicegram_1.2.6_1685402582.ipa",
+		"category" : "Tweaked Apps",
 		"description" : "Mua Chứng Chỉ Liên Hệ Zalo 0369171709 😍",
-		"bundleID" : "com.nicegram.app",
-		"screenshots" : [
-			"https://lazyvn.github.io/img/nicegramdemo.png",
-			"https://lazyvn.github.io/img/lazydemo.png"
-		],
-		"changelog" :"LaZy 🇻🇳",
-		"contact" {
-			"web":"https://lazyvn.github.io/",
-			"twitter":"https://www.facebook.com/179io.mtt/"
-		}
-	}                                                                                                                                                                                                 
+        "bundleID" : "com.nicegram.app",
+		"screenshots": [
+            "https://lazyvn.github.io/img/nicegramdemo.png",
+            "https://lazyvn.github.io/img/lazydemo.png"
+        ],
+        "changelog": "LaZy 🇻🇳",
+        "contact": {
+			"web": "https://thanhtungipa.github.io/",
+			"twitter": "https://www.facebook.com/179io.mtt/"
+		}    
+    }                                                                                                                                                                                                 
                                                                                                                                                                  
 
 
