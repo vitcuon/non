@@ -3,12 +3,12 @@
 		"repoName": "LaZy 🇻🇳",
 		"repoIcon": "https://thanhtungipa.github.io/img/Logolazy.PNG"
 	},
-"LaZy 🇻🇳": [{
+"LaZyiOS": [{
 		"name": "Ulike Pro",
 		"version": "Liếm",
 		"icon": "https://thanhtungipa.github.io/img/ulike.jpg",
 		"down": "https://archive.org/download/ulike-pro-179ios-1/Ulike%20Pro%20-%20179ios%281%29.ipa",
-		"category": "LaZy 🇻🇳",
+		"category": "LaZyiOS",
 		"description": "Mua Chứng Chỉ Liên Hệ Zalo 0369171709 😍",
 		"bundleID": "com.ulike.app",
 		"screenshots": [
@@ -24,7 +24,7 @@
 		"version": "Liếm",
 		"icon": "https://thanhtungipa.github.io/img/Youtobe.png",
 		"down": "https://archive.org/download/you-tube-killer-18.11.2-okko-okan/YouTubeKiller_18.11.2_OkkoOkan.ipa",
-		"category": "LaZy 🇻🇳",
+		"category": "LaZyiOS",
 		"description": "Mua Chứng Chỉ Liên Hệ Zalo 0369171709 😍",
 		"bundleID": "com.youtobe.killer.app",
 		"screenshots": [
@@ -40,7 +40,7 @@
 		"version": "Liếm",
 		"icon": "https://thanhtungipa.github.io/img/lightrom.png",
 		"down": "https://archive.org/download/lightroom-v-8.2.2/Lightroom%20v%288.2.2%29.ipa",
-		"category": "LaZy 🇻🇳",
+		"category": "LaZyiOS",
 		"description": "Mua Chứng Chỉ Liên Hệ Zalo 0369171709 😍",
 		"screenshots": [
             "https://lazyvn.github.io/img/lazydemo.png",
@@ -55,7 +55,7 @@
 		"version": "Liếm",
 		"icon" : "https://thanhtungipa.github.io/img/li%C3%AAn%20qu%C3%A2n.jpg",
 		"down" : "https://archive.org/download/lazy-i-os-1/Lazy%20-%20iOS%F0%9F%87%BB%F0%9F%87%B3%281%29.ipa",
-		"category" :"LaZy 🇻🇳",
+		"category" :"LaZyiOS",
 		"description": "Mua Chứng Chỉ Liên Hệ Zalo 0369171709 😍",
 		"bundleID" : "com.aovoggy.app",
 		"screenshots": [
@@ -73,7 +73,7 @@
 		"version" : "Liếm",
 		"icon" : "https://thanhtungipa.github.io/img/alightmotion.png",
 		"down" : "https://archive.org/download/alight-motion-mtt/Alight%20MotionMTT.ipa",
-		"category" : "LaZy 🇻🇳",
+		"category" : "LaZyiOS",
 		"description" : "Mua Chứng Chỉ Liên Hệ Zalo 0369171709 😍",
 		"bundleID" : "com.alight.app",
 		"screenshots": [
@@ -90,7 +90,7 @@
 		"version" : "Liếm",
 		"icon" : "https://thanhtungipa.github.io/img/picsart.jpg",
 		"down" : "https://archive.org/download/picsat-pro-mtt/Picsat%20Pro%20-%20MTT.ipa",
-		"category" : "LaZy 🇻🇳",
+		"category" : "LaZyiOS",
 		"description" : "Mua Chứng Chỉ Liên Hệ Zalo 0369171709 😍",
         "bundleID" : "com.picsart.app",
 		"screenshots": [
@@ -108,7 +108,7 @@
 			"icon": "https://cdn.discordapp.com/attachments/752890955236901055/829728600446074930/Taurine.png",
 			"down": "https://github.com/Odyssey-Team/Taurine/releases/download/1.1.6/Taurine-1.1.6.ipa",
 			"dev": "Odyssey-Team",
-			"category": "LaZy 🇻🇳",
+			"category": "LaZyiOS",
 			"description": "Mua Chứng Chỉ Liên Hệ Zalo 0369171709 😍",
 			"bundleID": "com.odysseyteam.taurine",
 			"screenshots": [
@@ -124,7 +124,7 @@
 		"version" : "Liếm",
 		"icon" : "https://thanhtungipa.github.io/img/Youtobe.png",
 		"down" : "https://github.com/qnblackcat/uYouPlus/releases/download/v18.14.1-3.0/uYouPlus_18.14.1_3.0.ipa",
-		"category" : "LaZy 🇻🇳",
+		"category" : "LaZyiOS",
 		"description" : "Mua Chứng Chỉ Liên Hệ Zalo 0369171709 😍",
         "bundleID" : "com.picsart.app",
 		"screenshots": [
@@ -141,7 +141,7 @@
 		"version" : "Liếm",
 		"icon" : "https://lazyvn.github.io/img/igg.png",
 		"down" : "https://archive.org/download/igamegod_202305/iGameGod.zip",
-		"category" : "LaZy 🇻🇳",
+		"category" : "LaZyiOS",
 		"description" : "Vì Là File Zip Sau Khi Tải Xong Hãy Vào Tệp Giải Nén Trước Khi Tiêm",
         "bundleID" : "com.igamegods.app",
 		"screenshots": [
@@ -159,7 +159,7 @@
 		"version" : "Liếm",
 		"icon" : "https://thanhtungipa.github.io/img/Blacklist.PNG",
 		"down" : "https://github.com/thanhtungios/thanhtungios.github.io/blob/main/Blacklist_1.0(1).ipa?raw=true",
-		"category" : "LaZy 🇻🇳",
+		"category" : "LaZyiOS",
 		"description" : "Mua Chứng Chỉ Liên Hệ Zalo 0369171709 😍",
         "bundleID" : "com.blacklist.app",
 		"screenshots": [
@@ -176,7 +176,7 @@
 		"version" : "Liếm",
 		"icon" : "https://thanhtungipa.github.io/img/nextflix.png",
 		"down" : "https://archive.org/download/netflix-vip_202304/Netflix%20VIP%20.ipa",
-		"category" : "LaZy 🇻🇳",
+		"category" : "LaZyiOS",
 		"description" : "Mua Chứng Chỉ Liên Hệ Zalo 0369171709 😍",
         "bundleID" : "com.netflix.app",
 		"screenshots": [
@@ -193,7 +193,7 @@
 		"version" : "Liếm",
 		"icon" : "https://thanhtungipa.github.io/img/Terabox.jpg",
 		"down" : "https://archive.org/download/tera-box-3.9.0-1/TeraBox_3.9.0%281%29.ipa",
-		"category" : "LaZy 🇻🇳",
+		"category" : "LaZyiOS",
 		"description" : "Mua Chứng Chỉ Liên Hệ Zalo 0369171709 😍",
         "bundleID" : "com.terabox.app",
 		"screenshots": [
@@ -210,7 +210,7 @@
 		"version" : "Liếm",
 		"icon" : "https://thanhtungipa.github.io/img/tiktokpro.png",
 		"down" : "https://archive.org/download/tik-tok-pro-179ios/TikTok%20Pro%20-179ios.ipa",
-		"category" : "LaZy 🇻🇳",
+		"category" : "LaZyiOS",
 		"description" : "Mua Chứng Chỉ Liên Hệ Zalo 0369171709 😍",
         "bundleID" : "com.tiktok.app",
 		"screenshots": [
@@ -227,7 +227,7 @@
 		"version" : "Liếm",
 		"icon" : "https://thanhtungipa.github.io/img/mega.png",
 		"down" : "https://archive.org/download/mega-9.6.1/MEGA_9.6.1.ipa",
-		"category" : "LaZy 🇻🇳",
+		"category" : "LaZyiOS",
 		"description" : "Mua Chứng Chỉ Liên Hệ Zalo 0369171709 😍",
         "bundleID" : "com.mega.app",
 		"screenshots": [
@@ -261,7 +261,7 @@
 		"version" : "Liếm",
 		"icon" : "https://thanhtungipa.github.io/img/messenger.jpg",
 		"down" : "https://archive.org/download/messenger-2-179-1/Messenger%202%20-%20%23179%281%29.ipa",
-		"category" : "LaZy 🇻🇳",
+		"category" : "LaZyiOS",
 		"description" : "Mua Chứng Chỉ Liên Hệ Zalo 0369171709 😍",
         "bundleID" : "com.messenger.app",
 		"screenshots": [
@@ -278,7 +278,7 @@
 		"version" : "Liếm",
 		"icon" : "https://thanhtungipa.github.io/img/spectra.jpg",
 		"down" : "https://archive.org/download/spectra-179ios/Spectra%20-%20179ios%F0%9F%90%A7.ipa",
-		"category" : "LaZy 🇻🇳",
+		"category" : "LaZyiOS",
 		"description" : "Mua Chứng Chỉ Liên Hệ Zalo 0369171709 😍",
         "bundleID" : "com.spectra.app",
 		"screenshots": [
@@ -295,7 +295,7 @@
 		"version" : "Liếm",
 		"icon" : "https://thanhtungipa.github.io/img/zalo2.png",
 		"down" : "https://archive.org/download/zalo-2-179ios/Zalo%202%20-%20%40179ios%F0%9F%90%A7.ipa",
-		"category" : "LaZy 🇻🇳",
+		"category" : "LaZyiOS",
 		"description" : "Mua Chứng Chỉ Liên Hệ Zalo 0369171709 😍",
         "bundleID" : "com.zalo2.app",
 		"screenshots": [
@@ -329,7 +329,7 @@
 		"version" : "Liếm",
 		"icon" : "https://thanhtungipa.github.io/img/spotify.png",
 		"down" : "https://archive.org/download/spotify-8.8.14_202303/Spotify_8.8.14.ipa",
-		"category" : "LaZy 🇻🇳",
+		"category" : "LaZyiOS",
 		"description" : "Mua Chứng Chỉ Liên Hệ Zalo 0369171709 😍",
         "bundleID" : "com.zalo2.app",
 		"screenshots": [
@@ -346,7 +346,7 @@
 		"version" : "Liếm",
 		"icon" : "https://thanhtungipa.github.io/img/videoslap.png",
 		"down" : "https://archive.org/download/videoleap_202305/Videoleap.ipa",
-		"category" : "LaZy 🇻🇳",
+		"category" : "LaZyiOS",
 		"description" : "Mua Chứng Chỉ Liên Hệ Zalo 0369171709 😍",
         "bundleID" : "com.zalo2.app",
 		"screenshots": [
@@ -363,7 +363,7 @@
 		"version" : "Liếm",
 		"icon" : "https://lazyvn.github.io/img/GoogleEarth.png",
     		"down" : "https://archive.org/download/google-earth-mtt/Google%20Earth%20MTT%20.ipa",
-		"category" : "LaZy 🇻🇳",
+		"category" : "LaZyiOS",
 		"description" : "Mua Chứng Chỉ Liên Hệ Zalo 0369171709 😍",
         "bundleID" : "com.GoogleEarth.app",
 		"screenshots": [
@@ -380,7 +380,7 @@
 		"version" : "Liếm",
 		"icon" : "https://lazyvn.github.io/img/dynamiccowiconpreview.png",
     		"down" : "https://archive.org/download/dynamic-cow-v-1.1/DynamicCow%20V1.1.ipa",
-		"category" : "LaZy 🇻🇳",
+		"category" : "LaZyiOS",
 		"description" : "Mua Chứng Chỉ Liên Hệ Zalo 0369171709 😍",
         "bundleID" : "com.GoogleEarth.app",
 		"screenshots": [
@@ -398,7 +398,7 @@
 		"version" : "Liếm",
 		"icon" : "https://lazyvn.github.io/img/nicegramlogo.png",
 		     "down" : "https://archive.org/download/in-shot-lazy-1.67.0-1685402522/inShot%20Lazy%F0%9F%87%BB%F0%9F%87%B3_1.67.0_1685402522.ipa",
-	    "category" : "LaZy 🇻🇳",
+	    "category" : "LaZyiOS",
 		"description" : "Mua Chứng Chỉ Liên Hệ Zalo 0369171709 😍",
 		"bundleID" : "com.nicegram.app",
 		"screenshots" : [
