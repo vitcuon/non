@@ -75,14 +75,14 @@
 	}, {
 		"name" : "alight motion Pro",
 		"version" : "Liếm",
-		"icon" : "https://thanhtungipa.github.io/img/alightmotion.png",
+		"icon" : "https://lazyvn.github.io/img/alightmotionlogo.png",
 		"down" : "https://archive.org/download/alight-motion-mtt/Alight%20MotionMTT.ipa",
 		"dev": "Lazy Dev",
 		"category" : "Tweaked Apps",
 		"description" : "Mua Chứng Chỉ Liên Hệ Zalo 0369171709 😍",
 		"bundleID" : "com.alight.app",
 		"screenshots": [
-            "https://thanhtungipa.github.io/img/alightmotion.png",
+            "https://lazyvn.github.io/img/alightdemo.jpg",
             "https://lazyvn.github.io/img/lazydemo.png"
         ],
         "changelog": "LaZy 🇻🇳",
@@ -100,7 +100,7 @@
 		"description" : "Mua Chứng Chỉ Liên Hệ Zalo 0369171709 😍",
         "bundleID" : "com.picsart.app",
 		"screenshots": [
-            "https://thanhtungipa.github.io/img/editpicsart.jpg",
+            "https://lazyvn.github.io/img/picsartdemo.png",
             "https://lazyvn.github.io/img/lazydemo.png"
         ],
         "changelog": "LaZy 🇻🇳",
@@ -136,7 +136,7 @@
 		"description" : "Mua Chứng Chỉ Liên Hệ Zalo 0369171709 😍",
         "bundleID" : "com.picsart.app",
 		"screenshots": [
-            "https://thanhtungipa.github.io/img/edityoutobe.jpg",
+            "https://lazyvn.github.io/img/youtobedemo.png",
             "https://lazyvn.github.io/img/lazydemo.png"
         ],
         "changelog": "LaZy 🇻🇳",
@@ -227,7 +227,9 @@
 		"description" : "Mua Chứng Chỉ Liên Hệ Zalo 0369171709 😍",
         "bundleID" : "com.tiktok.app",
 		"screenshots": [
-            "https://thanhtungipa.github.io/img/tiktok.jpg",
+            "https://lazyvn.github.io/img/tiktokdemo.png",
+			"https://lazyvn.github.io/img/tiktokdemo1.png",
+			"https://lazyvn.github.io/img/tiktokdemo2.png",
             "https://lazyvn.github.io/img/lazydemo.png"
         ],
         "changelog": "LaZy 🇻🇳",
@@ -535,6 +537,24 @@
         "bundleID" : "com.carpack3d.app",
 		"screenshots": [
             "https://lazyvn.github.io/img/lazydemo.png",
+        ],
+        "changelog": "LaZy 🇻🇳",
+        "contact": {
+			"web": "https://thanhtungipa.github.io/",
+			"twitter": "https://www.facebook.com/179io.mtt/"
+		}    
+    },{
+        "name" : "VivaCut Premium",
+		"version" : "Liếm",
+		"icon" : "https://lazyvn.github.io/img/vivacutlogo.png",
+    	"down" : "https://archive.org/download/viva-cut-3.1.8-1685411168/VivaCut_3.1.8_1685411168.ipa",
+		"dev": "Lazy Dev",
+		"category" : "Tweaked Apps",
+		"description" : "Mua Chứng Chỉ Liên Hệ Zalo 0369171709 😍",
+        "bundleID" : "com.carpack3d.app",
+		"screenshots": [
+            "https://lazyvn.github.io/img/vivacutdemo.png",
+            "https://lazyvn.github.io/img/lazydemo.png"
         ],
         "changelog": "LaZy 🇻🇳",
         "contact": {
