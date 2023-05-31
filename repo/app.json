@@ -54,7 +54,7 @@
 			"twitter": "https://www.facebook.com/179io.mtt/"
 		}  
 	}, {
-		"name": "Liên Quân v1+",
+		"name": "Liên Quân v8",
 		"version": "Liếm",
 		"icon" : "https://thanhtungipa.github.io/img/li%C3%AAn%20qu%C3%A2n.jpg",
 		"down" : "https://archive.org/download/lazy-i-os-1/Lazy%20-%20iOS%F0%9F%87%BB%F0%9F%87%B3%281%29.ipa",
@@ -551,10 +551,61 @@
 		"dev": "Lazy Dev",
 		"category" : "Tweaked Apps",
 		"description" : "Mua Chứng Chỉ Liên Hệ Zalo 0369171709 😍",
-        "bundleID" : "com.carpack3d.app",
+        "bundleID" : "com.vivacut.app",
 		"screenshots": [
             "https://lazyvn.github.io/img/vivacutdemo.png",
             "https://lazyvn.github.io/img/lazydemo.png"
+        ],
+        "changelog": "LaZy 🇻🇳",
+        "contact": {
+			"web": "https://thanhtungipa.github.io/",
+			"twitter": "https://www.facebook.com/179io.mtt/"
+		}    
+    },{
+        "name" : "Odyssey",
+		"version" : "Liếm",
+		"icon" : "https://lazyvn.github.io/img/odyseelogo.jpg",
+    	"down" : "https://archive.org/download/odyssey_202305/Odyssey.ipa",
+		"dev": "Lazy Dev",
+		"category" : "Tweaked Apps",
+		"description" : "Mua Chứng Chỉ Liên Hệ Zalo 0369171709 😍",
+        "bundleID" : "com.odyssey.app",
+		"screenshots": [
+            "https://lazyvn.github.io/img/lazydemo.png",
+        ],
+        "changelog": "LaZy 🇻🇳",
+        "contact": {
+			"web": "https://thanhtungipa.github.io/",
+			"twitter": "https://www.facebook.com/179io.mtt/"
+		}    
+    },{
+        "name" : "Chimera",
+		"version" : "Liếm",
+		"icon" : "https://lazyvn.github.io/img/chimeralogo.png",
+    	"down" : "https://archive.org/download/chimera_202305/chimera.ipa",
+		"dev": "Lazy Dev",
+		"category" : "Tweaked Apps",
+		"description" : "Mua Chứng Chỉ Liên Hệ Zalo 0369171709 😍",
+        "bundleID" : "com.chimera.app",
+		"screenshots": [
+            "https://lazyvn.github.io/img/lazydemo.png",
+        ],
+        "changelog": "LaZy 🇻🇳",
+        "contact": {
+			"web": "https://thanhtungipa.github.io/",
+			"twitter": "https://www.facebook.com/179io.mtt/"
+		}    
+    },{
+        "name" : "Xina Jailbreak",
+		"version" : "Liếm",
+		"icon" : "https://lazyvn.github.io/img/xinaa15logo.png",
+    	"down" : "https://archive.org/download/xina-a-12_202305/XinaA12.ipa",
+		"dev": "Lazy Dev",
+		"category" : "Tweaked Apps",
+		"description" : "Mua Chứng Chỉ Liên Hệ Zalo 0369171709 😍",
+        "bundleID" : "com.xina.app",
+		"screenshots": [
+            "https://lazyvn.github.io/img/lazydemo.png",
         ],
         "changelog": "LaZy 🇻🇳",
         "contact": {
