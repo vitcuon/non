@@ -612,6 +612,23 @@
 			"web": "https://thanhtungipa.github.io/",
 			"twitter": "https://www.facebook.com/179io.mtt/"
 		}    
+    },,{
+        "name" : "Unc0ver",
+		"version" : "Liếm",
+		"icon" : "https://lazyvn.github.io/img/UNC0VER.jpg",
+    	"down" : "https://www.unc0ver.dev/downloads/8.0.2/9e44edfbfd1905cadf23c3b9ad1d5bed683ce061/unc0ver_Release_8.0.2.ipa",
+		"dev": "Lazy Dev",
+		"category" : "Tweaked Apps",
+		"description" : "Mua Chứng Chỉ Liên Hệ Zalo 0369171709 😍",
+        "bundleID" : "com.unc0ver.app",
+		"screenshots": [
+            "https://lazyvn.github.io/img/lazydemo.png",
+        ],
+        "changelog": "LaZy 🇻🇳",
+        "contact": {
+			"web": "https://thanhtungipa.github.io/",
+			"twitter": "https://www.facebook.com/179io.mtt/"
+		}    
     }                                                                                                                                                                                                 
                                                                                                                                                                  
 
