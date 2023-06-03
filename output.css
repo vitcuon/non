@@ -189,7 +189,7 @@ header #animated-inner-text::after {
 
 @keyframes slide {
 
-    0%,
+    50%,
     100% {
         left: 0;
     }
@@ -202,7 +202,7 @@ header #animated-inner-text::after {
 
 @keyframes blink {
 
-    0%,
+    50%,
     100% {
         border-left-color: var(--bg-color);
     }
