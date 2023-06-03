@@ -14,6 +14,8 @@
     --color2: #fff;
     --shadow: 0 0 4px #25f0ff;
 }
+/*mobile: width < 740px */
+@media only screen and (Max-width: 461875em){  
 
 a {
     color: var(--color2);
@@ -123,7 +125,8 @@ nav div h1 {
 }
 
 /*  header  */
-
+/*mobile: width < 740px */
+@media only screen and (Max-width: 461875em){  
 header {
     width: 100%;
     height: 100%;
@@ -210,13 +213,15 @@ header #animated-inner-text::after {
 }
 
 
-
+/*mobile: width < 740px */
+@media only screen and (Max-width: 461875em){  
 header .btns {
     margin: 50px 0 30px 0;
     width: fit-content;
     height: fit-content;
 }
-
+/*mobile: width < 740px */
+@media only screen and (Max-width: 461875em){  
 header .btns button,
 header .btns button a {
     text-transform: capitalize;
@@ -267,7 +272,8 @@ header .btns button:nth-child(2) a:hover {
 
 /*      icons bar   */
 
-
+/*mobile: width < 740px */
+@media only screen and (Max-width: 461875em){  
 header .icons-bar i {
     font-size: 20px;
     color: var(--color);
@@ -313,7 +319,8 @@ header .right-side .content .svg img {
 
 
 /*      secA            */
-
+/*mobile: width < 740px */
+@media only screen and (Max-width: 461875em){  
 .secA {
     width: 100%;
     height: fit-content;
@@ -437,7 +444,8 @@ header .right-side .content .svg img {
 
 
 /* secB */
-
+/*mobile: width < 740px */
+@media only screen and (Max-width: 461875em){  
 .secB {
     width: 100%;
     height: fit-content;
@@ -498,7 +506,8 @@ header .right-side .content .svg img {
 }
 
 /*      secC        */
-
+/*mobile: width < 740px */
+@media only screen and (Max-width: 461875em){  
 .secC {
     width: 100%;
     height: fit-content;
@@ -583,7 +592,8 @@ header .right-side .content .svg img {
 
 
 /*  secD    */
-
+/*mobile: width < 740px */
+@media only screen and (Max-width: 461875em){  
 .secD {
     width: 75%;
     height: fit-content;
@@ -662,7 +672,8 @@ header .right-side .content .svg img {
 }
 
 /*  secE        */
-
+/*mobile: width < 740px */
+@media only screen and (Max-width: 461875em){  
 .secE {
     width: 100%;
     height: fit-content;
@@ -781,7 +792,8 @@ header .right-side .content .svg img {
 
 
 /*  secF    */
-
+/*mobile: width < 740px */
+@media only screen and (Max-width: 461875em){  
 .secF {
     width: 100%;
     height: fit-content;
@@ -806,7 +818,8 @@ header .right-side .content .svg img {
 
 
 /*footer    */
-
+/*mobile: width < 740px */
+@media only screen and (Max-width: 461875em){  
 footer {
     width: 100%;
     height: fit-content;
@@ -904,7 +917,9 @@ footer .copyright span {
 
 
 /*  scroll-top button   */
-
+/*mobile: width < 740px */
+@media only screen and (Max-width: 461875em){  
+    
 .scroll-top {
     width: 40px;
     height: 40px;
