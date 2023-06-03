@@ -142,10 +142,9 @@ header .right-side {
 }
 
 header .left-side .content {
-    position: absolute;
-    top: 25%;
-    left: 15%;
-    text-transform: capitalize;
+    width: 50%;
+    height: 100%;
+    position: static;
 }
 
 header .left-side .content p {
