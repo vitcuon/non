@@ -16,15 +16,15 @@
 		        <key>IsRemovable</key>
 			<true/>
 			<key>Label</key>
-			<string>Mai Thanh Tùng</string>
+			<string>iLos IPA Library</string>
 			<key>PayloadDescription</key>
 			<string>Configures Web Clip</string>
 			<key>PayloadDisplayName</key>
-			<string>Mai Thanh Tùng</string>
+			<string>iLos IPA Library</string>
 			<key>PayloadIdentifier</key>
-			<string>vn.ycs.179ios.WebClip</string>
+			<string>vn.ycs.ilos.WebClip</string>
 			<key>Payload.Organization</key>
-			<string>Thanh Tùng🐧 Store</string>
+			<string>iLos Store</string>
 			<key>PayloadType</key>
 			<string>com.apple.webClip.managed</string>
 			<key>PayloadUUID</key>
@@ -38,13 +38,13 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Cài Đặt tiện ích tạo bởi Mai Thanh Tùng</string>
+	<string>Cài Đặt tiện ích tạo bởi iLos</string>
 	<key>PayloadDisplayName</key>
-	<string>Thanh TùngIPA</string>
+	<string>iLos IPA Library</string>
 	<key>PayloadIdentifier</key>
-	<string>cm.179ios.ThanhTung</string>
+	<string>com.IPA.iLos</string>
 	<key>PayloadOrganization</key>
-	<string> Mai Thanh Tùng  </string>
+	<string>iLos.HN</string>
 	<key>PayloadRemovalDisallowed</key>
 	<false/>
 	<key>PayloadType</key>
