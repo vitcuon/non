@@ -16,7 +16,7 @@
 		        <key>IsRemovable</key>
 			<true/>
 			<key>Label</key>
-			<string>Mai Thanh Tùng</string>
+			<string>Lazy🇻🇳</string>
 			<key>PayloadDescription</key>
 			<string>Configures Web Clip</string>
 			<key>PayloadDisplayName</key>
@@ -24,7 +24,7 @@
 			<key>PayloadIdentifier</key>
 			<string>vn.ycs.179ios.WebClip</string>
 			<key>Payload.Organization</key>
-			<string>Thanh Tùng🐧 Store</string>
+			<string>Thanh Tùng Store</string>
 			<key>PayloadType</key>
 			<string>com.apple.webClip.managed</string>
 			<key>PayloadUUID</key>
@@ -34,13 +34,13 @@
 			<key>Precomposed</key>
 			<true/>
 			<key>URL</key>
-			<string>https://armconverter.com/il2cppdumper/create/08a6fbfc-0694-404a-b3b2-7d47fb952a48</string>
+			<string>https://decrypt.day</string>
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
 	<string>Cài Đặt tiện ích tạo bởi Mai Thanh Tùng</string>
 	<key>PayloadDisplayName</key>
-	<string>Thanh TùngIPA</string>
+	<string>Lazy.VN🇻🇳</string>
 	<key>PayloadIdentifier</key>
 	<string>cm.179ios.ThanhTung</string>
 	<key>PayloadOrganization</key>
