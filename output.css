@@ -9,7 +9,7 @@
 
 body {
     min-height: 100vh;
-    background: url(https://lazyvn.github.io/img/Nencss.PNG) center / cover;
+    background: url(https://lazyvn.github.io/img/nencss.JPG) center / cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -237,7 +237,7 @@ thead th.active,tbody td.active {
     display: inline-block;
     width: 2rem;
     height: 2rem;
-    background: rgba(207, 203, 203, 0.4) url(https://lazyvn.github.io/img/Nencss.PNG) center / 80% no-repeat;
+    background: rgba(207, 203, 203, 0.4) url(https://lazyvn.github.io/img/logolazy.PNG) center / 80% no-repeat;
     border-radius: 50%;
     transition: .2s ease-in-out;
 }
