@@ -1,159 +1,202 @@
-'use strict';
+const search = document.querySelector('.input-group input'),
+    table_rows = document.querySelectorAll('tbody tr'),
+    table_headings = document.querySelectorAll('thead th');
 
+// 1. Searching for specific data of HTML table
+search.addEventListener('input', searchTable);
 
+function searchTable() {
+    table_rows.forEach((row, i) => {
+        let table_data = row.textContent.toLowerCase(),
+            search_data = search.value.toLowerCase();
 
-// element toggle function
-const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
+        row.classList.toggle('hide', table_data.indexOf(search_data) < 0);
+        row.style.setProperty('--delay', i / 25 + 's');
+    })
 
-
-
-// sidebar variables
-const sidebar = document.querySelector("[data-sidebar]");
-const sidebarBtn = document.querySelector("[data-sidebar-btn]");
-
-// sidebar toggle functionality for mobile
-sidebarBtn.addEventListener("click", function () { elementToggleFunc(sidebar); });
-
-
-
-// testimonials variables
-const testimonialsItem = document.querySelectorAll("[data-testimonials-item]");
-const modalContainer = document.querySelector("[data-modal-container]");
-const modalCloseBtn = document.querySelector("[data-modal-close-btn]");
-const overlay = document.querySelector("[data-overlay]");
-
-// modal variable
-const modalImg = document.querySelector("[data-modal-img]");
-const modalTitle = document.querySelector("[data-modal-title]");
-const modalText = document.querySelector("[data-modal-text]");
-
-// modal toggle function
-const testimonialsModalFunc = function () {
-  modalContainer.classList.toggle("active");
-  overlay.classList.toggle("active");
+    document.querySelectorAll('tbody tr:not(.hide)').forEach((visible_row, i) => {
+        visible_row.style.backgroundColor = (i % 2 == 0) ? 'transparent' : '#0000000b';
+    });
 }
 
-// add click event to all modal items
-for (let i = 0; i < testimonialsItem.length; i++) {
+// 2. Sorting | Ordering data of HTML table
 
-  testimonialsItem[i].addEventListener("click", function () {
+table_headings.forEach((head, i) => {
+    let sort_asc = true;
+    head.onclick = () => {
+        table_headings.forEach(head => head.classList.remove('active'));
+        head.classList.add('active');
 
-    modalImg.src = this.querySelector("[data-testimonials-avatar]").src;
-    modalImg.alt = this.querySelector("[data-testimonials-avatar]").alt;
-    modalTitle.innerHTML = this.querySelector("[data-testimonials-title]").innerHTML;
-    modalText.innerHTML = this.querySelector("[data-testimonials-text]").innerHTML;
+        document.querySelectorAll('td').forEach(td => td.classList.remove('active'));
+        table_rows.forEach(row => {
+            row.querySelectorAll('td')[i].classList.add('active');
+        })
 
-    testimonialsModalFunc();
+        head.classList.toggle('asc', sort_asc);
+        sort_asc = head.classList.contains('asc') ? false : true;
 
-  });
+        sortTable(i, sort_asc);
+    }
+})
 
+
+function sortTable(column, sort_asc) {
+    [...table_rows].sort((a, b) => {
+        let first_row = a.querySelectorAll('td')[column].textContent.toLowerCase(),
+            second_row = b.querySelectorAll('td')[column].textContent.toLowerCase();
+
+        return sort_asc ? (first_row < second_row ? 1 : -1) : (first_row < second_row ? -1 : 1);
+    })
+        .map(sorted_row => document.querySelector('tbody').appendChild(sorted_row));
 }
 
-// add click event to modal close button
-modalCloseBtn.addEventListener("click", testimonialsModalFunc);
-overlay.addEventListener("click", testimonialsModalFunc);
+// 3. Converting HTML table to PDF
 
+const pdf_btn = document.querySelector('#toPDF');
+const customers_table = document.querySelector('#customers_table');
 
+const toPDF = function (customers_table) {
+    const html_code = `
+    <link rel="stylesheet" href="style.css">
+    <main class="table" >${customers_table.innerHTML}</main>
+    `;
 
-// custom select variables
-const select = document.querySelector("[data-select]");
-const selectItems = document.querySelectorAll("[data-select-item]");
-const selectValue = document.querySelector("[data-selecct-value]");
-const filterBtn = document.querySelectorAll("[data-filter-btn]");
+    const new_window = window.open();
+    new_window.document.write(html_code);
 
-select.addEventListener("click", function () { elementToggleFunc(this); });
-
-// add event in all select items
-for (let i = 0; i < selectItems.length; i++) {
-  selectItems[i].addEventListener("click", function () {
-
-    let selectedValue = this.innerText.toLowerCase();
-    selectValue.innerText = this.innerText;
-    elementToggleFunc(select);
-    filterFunc(selectedValue);
-
-  });
+    setTimeout(() => {
+        new_window.print();
+        new_window.close();
+    }, 400);
 }
 
-// filter variables
-const filterItems = document.querySelectorAll("[data-filter-item]");
+pdf_btn.onclick = () => {
+    toPDF(customers_table);
+}
 
-const filterFunc = function (selectedValue) {
+// 4. Converting HTML table to JSON
 
-  for (let i = 0; i < filterItems.length; i++) {
+const json_btn = document.querySelector('#toJSON');
 
-    if (selectedValue === "all") {
-      filterItems[i].classList.add("active");
-    } else if (selectedValue === filterItems[i].dataset.category) {
-      filterItems[i].classList.add("active");
-    } else {
-      filterItems[i].classList.remove("active");
+const toJSON = function (table) {
+    let table_data = [],
+        t_head = [],
+
+        t_headings = table.querySelectorAll('th'),
+        t_rows = table.querySelectorAll('tbody tr');
+
+    for (let t_heading of t_headings) {
+        let actual_head = t_heading.textContent.trim().split(' ');
+
+        t_head.push(actual_head.splice(0, actual_head.length - 1).join(' ').toLowerCase());
     }
 
-  }
+    t_rows.forEach(row => {
+        const row_object = {},
+            t_cells = row.querySelectorAll('td');
 
+        t_cells.forEach((t_cell, cell_index) => {
+            const img = t_cell.querySelector('img');
+            if (img) {
+                row_object['customer image'] = decodeURIComponent(img.src);
+            }
+            row_object[t_head[cell_index]] = t_cell.textContent.trim();
+        })
+        table_data.push(row_object);
+    })
+
+    return JSON.stringify(table_data, null, 4);
 }
 
-// add event in all filter button items for large screen
-let lastClickedBtn = filterBtn[0];
-
-for (let i = 0; i < filterBtn.length; i++) {
-
-  filterBtn[i].addEventListener("click", function () {
-
-    let selectedValue = this.innerText.toLowerCase();
-    selectValue.innerText = this.innerText;
-    filterFunc(selectedValue);
-
-    lastClickedBtn.classList.remove("active");
-    this.classList.add("active");
-    lastClickedBtn = this;
-
-  });
-
+json_btn.onclick = () => {
+    const json = toJSON(customers_table);
+    downloadFile(json, 'json')
 }
 
+// 5. Converting HTML table to CSV File
 
+const csv_btn = document.querySelector('#toCSV');
 
-// contact form variables
-const form = document.querySelector("[data-form]");
-const formInputs = document.querySelectorAll("[data-form-input]");
-const formBtn = document.querySelector("[data-form-btn]");
+const toCSV = function (table) {
+    // Code For SIMPLE TABLE
+    // const t_rows = table.querySelectorAll('tr');
+    // return [...t_rows].map(row => {
+    //     const cells = row.querySelectorAll('th, td');
+    //     return [...cells].map(cell => cell.textContent.trim()).join(',');
+    // }).join('\n');
 
-// add event to all form input field
-for (let i = 0; i < formInputs.length; i++) {
-  formInputs[i].addEventListener("input", function () {
+    const t_heads = table.querySelectorAll('th'),
+        tbody_rows = table.querySelectorAll('tbody tr');
 
-    // check form validation
-    if (form.checkValidity()) {
-      formBtn.removeAttribute("disabled");
-    } else {
-      formBtn.setAttribute("disabled", "");
+    const headings = [...t_heads].map(head => {
+        let actual_head = head.textContent.trim().split(' ');
+        return actual_head.splice(0, actual_head.length - 1).join(' ').toLowerCase();
+    }).join(',') + ',' + 'image name';
+
+    const table_data = [...tbody_rows].map(row => {
+        const cells = row.querySelectorAll('td'),
+            img = decodeURIComponent(row.querySelector('img').src),
+            data_without_img = [...cells].map(cell => cell.textContent.replace(/,/g, ".").trim()).join(',');
+
+        return data_without_img + ',' + img;
+    }).join('\n');
+
+    return headings + '\n' + table_data;
+}
+
+csv_btn.onclick = () => {
+    const csv = toCSV(customers_table);
+    downloadFile(csv, 'csv', 'customer orders');
+}
+
+// 6. Converting HTML table to EXCEL File
+
+const excel_btn = document.querySelector('#toEXCEL');
+
+const toExcel = function (table) {
+    // Code For SIMPLE TABLE
+    // const t_rows = table.querySelectorAll('tr');
+    // return [...t_rows].map(row => {
+    //     const cells = row.querySelectorAll('th, td');
+    //     return [...cells].map(cell => cell.textContent.trim()).join('\t');
+    // }).join('\n');
+
+    const t_heads = table.querySelectorAll('th'),
+        tbody_rows = table.querySelectorAll('tbody tr');
+
+    const headings = [...t_heads].map(head => {
+        let actual_head = head.textContent.trim().split(' ');
+        return actual_head.splice(0, actual_head.length - 1).join(' ').toLowerCase();
+    }).join('\t') + '\t' + 'image name';
+
+    const table_data = [...tbody_rows].map(row => {
+        const cells = row.querySelectorAll('td'),
+            img = decodeURIComponent(row.querySelector('img').src),
+            data_without_img = [...cells].map(cell => cell.textContent.trim()).join('\t');
+
+        return data_without_img + '\t' + img;
+    }).join('\n');
+
+    return headings + '\n' + table_data;
+}
+
+excel_btn.onclick = () => {
+    const excel = toExcel(customers_table);
+    downloadFile(excel, 'excel');
+}
+
+const downloadFile = function (data, fileType, fileName = '') {
+    const a = document.createElement('a');
+    a.download = fileName;
+    const mime_types = {
+        'json': 'application/json',
+        'csv': 'text/csv',
+        'excel': 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
     }
-
-  });
-}
-
-
-
-// page navigation variables
-const navigationLinks = document.querySelectorAll("[data-nav-link]");
-const pages = document.querySelectorAll("[data-page]");
-
-// add event to all nav link
-for (let i = 0; i < navigationLinks.length; i++) {
-  navigationLinks[i].addEventListener("click", function () {
-
-    for (let i = 0; i < pages.length; i++) {
-      if (this.innerHTML.toLowerCase() === pages[i].dataset.page) {
-        pages[i].classList.add("active");
-        navigationLinks[i].classList.add("active");
-        window.scrollTo(0, 0);
-      } else {
-        pages[i].classList.remove("active");
-        navigationLinks[i].classList.remove("active");
-      }
-    }
-
-  });
+    a.href = `
+        data:${mime_types[fileType]};charset=utf-8,${encodeURIComponent(data)}
+    `;
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
 }
