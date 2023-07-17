@@ -42,7 +42,7 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Certificate,", "Chứng Chỉ,", "Liên Hệ Mua Ngay Nào",],
+        strings: ["Certificate Apple,", "Chứng Chỉ Apple,", "Liên Hệ Mua Ngay ",],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
