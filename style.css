@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("https://lazyvn.github.io/img/nencss.jpg") no-repeat center;
+    background: url("https://lazyvn.github.io/img/Nencss.PNG") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
