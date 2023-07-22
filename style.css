@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("https://lazyvn.github.io/img/bg.png") no-repeat center;
+    background: url("https://lazyvn.github.io/img/nencss.PNG") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -379,7 +379,7 @@ section .title::after{
 
 /* teams section styling */
 .teams .title::after{
-    content: "Đạo Lý 2023,";
+    content: "Thông Điệp 2023,";
 }
 .teams .carousel .card{
     background: #222;
