@@ -1,139 +1,306 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 
-*
-{
+* {
     margin: 0;
     padding: 0;
+
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: sans-serif;
 }
-body
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+body {
     min-height: 100vh;
-    background: #222;
-}
-.container
-{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 60px 0;
-    gap: 60px;
-}
-.container .box
-{
-    position: relative;
-    width: 300px;
-    height: 350px;
-    background: #2e2e2e;
+    background: url(https://lazyvn.github.io/img/nencss.JPG) center / cover;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.container .box::before
-{
-    content: '';
-    position: absolute;
-    inset: -10px 50px;
-    border-top: 4px solid var(--clr);
-    border-bottom: 4px solid var(--clr);
-    z-index: -1;
-    transform: skewY(15deg);
-    transition: 0.5s ease-in-out;
-}
-.container .box:hover::before
-{
-    transform: skewY(0deg);
-    inset: -10px 40px;
-}
-.container .box::after
-{
-    content: '';
-    position: absolute;
-    inset: 60px -10px;
-    border-left: 4px solid var(--clr);
-    border-right: 4px solid var(--clr);
-    z-index: -1;
-    transform: skew(15deg);
-    transition: 0.5s ease-in-out;
-}
-.container .box:hover::after
-{
-    transform: skew(0deg);
-    inset: 40px -10px;
-}
-.container .box .content
-{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    gap: 20px;
-    padding: 0 20px;
-    width: 100%;
-    height: 100%;
+
+main.table {
+    width: 82vw;
+    height: 90vh;
+    background-color: rgb(255, 255, 255)255, 255, 255, 0.333);
+
+    backdrop-filter: blur(7px);
+    box-shadow: 0 .4rem .8rem rgb(255, 255, 255);
+    border-radius: .8rem;
+
     overflow: hidden;
 }
-.container .box .content .icon
-{
-    color: var(--clr);
-    width: 80px;
-    height: 80px;
-    box-shadow: 0 0 0 4px #2e2e2e,0 0 0 6px var(--clr);
+
+.table__header {
+    width: 100%;
+    height: 10%;
+    background-color: rgb(255, 255, 255);
+    padding: .8rem 1rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.table__header .input-group {
+    width: 35%;
+    height: 100%;
+    background-color: #fff5;
+    padding: 0 .8rem;
+    border-radius: 2rem;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2.5em;
-    background: #2e2e2e;
-    transition: 0.5s ease-in-out;
+
+    transition: .2s;
 }
-.container .box:hover .content .icon 
-{
-    background: var(--clr);
-    color: #2e2e2e;
-    box-shadow: 0 0 0 4px #2e2e2e,0 0 0 300px var(--clr);
+
+.table__header .input-group:hover {
+    width: 45%;
+    background-color: rgba(255, 255, 255, 0.533);
+    box-shadow: 0 .1rem .4rem rgba(255, 255, 255, 0.133)
 }
-.container .box .content .text h3
-{
-    font-size: 1.5em;
-    color: #fff;
-    font-weight: 500;
-    transition: 0.5s ease-in-out;
+
+.table__header .input-group img {
+    width: 1.2rem;
+    height: 1.2rem;
 }
-.container .box:hover .content .text h3
-{
-    color: #2e2e2e;
+
+.table__header .input-group input {
+    width: 100%;
+    padding: 0 .5rem 0 .3rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
 }
-.container .box .content .text p
-{
-    color: #999;
-    transition: 0.5s ease-in-out;
+
+.table__body {
+    width: 95%;
+    max-height: calc(89% - 1.6rem);
+    background-color: #fffb;
+
+    margin: .8rem auto;
+    border-radius: .6rem;
+
+    overflow: auto;
+    overflow: overlay;
 }
-.container .box:hover .content .text p
-{
-    color: #2e2e2e;
+
+.table__body::-webkit-scrollbar{
+    width: 0.5rem;
+    height: 0.5rem;
 }
-.container .box .content .text a
-{
-    position: relative;
-    background: var(--clr);
-    color: #2e2e2e;
-    padding: 8px 15px;
+
+.table__body::-webkit-scrollbar-thumb{
+    border-radius: .5rem;
+    background-color: rgb(255, 255, 255);
+    visibility: hidden;
+}
+
+.table__body:hover::-webkit-scrollbar-thumb{ 
+    visibility: visible;
+}
+
+table {
+    width: 100%;
+}
+
+td img {
+    width: 36px;
+    height: 36px;
+    margin-right: .5rem;
+    border-radius: 50%;
+
+    vertical-align: middle;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    padding: 1rem;
+    text-align: left;
+}
+
+thead th {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #d5d1defe;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+tbody tr {
+    --delay: .1s;
+    transition: .5s ease-in-out var(--delay), background-color 0s;
+}
+
+tbody tr.hide {
+    opacity: 0;
+    transform: translateX(100%);
+}
+
+tbody tr:hover {
+    background-color: #fff6 !important;
+}
+
+tbody tr td,
+tbody tr td p,
+tbody tr td img {
+    transition: .2s ease-in-out;
+}
+
+tbody tr.hide td,
+tbody tr.hide td p {
+    padding: 0;
+    font: 0 / 0 sans-serif;
+    transition: .2s ease-in-out .5s;
+}
+
+tbody tr.hide td img {
+    width: 0;
+    height: 0;
+    transition: .2s ease-in-out .5s;
+}
+
+.status {
+    padding: .4rem 0;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.status.delivered {
+    background-color: #000000;
+    color: #000000;
+}
+
+.status.cancelled {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.status.pending {
+    background-color: #ffffff;
+}
+
+.status.shipped {
+    background-color: #6fcaea;
+}
+
+
+@media (max-width: 1000px) {
+    td:not(:first-of-type) {
+        min-width: 12.1rem;
+    }
+}
+
+thead th span.icon-arrow {
     display: inline-block;
-    text-decoration: none;
-    font-weight: 500;
-    margin-top: 10px;
-    transition: 0.5s ease-in-out;
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 50%;
+    border: 1.4px solid transparent;
+    
+    text-align: center;
+    font-size: 1rem;
+    
+    margin-left: .5rem;
+    transition: .2s ease-in-out;
 }
-.container .box:hover .content .text a
-{
-    background: #2e2e2e;
-    color: var(--clr);
+
+thead th:hover span.icon-arrow{
+    border: 1.4px solid #ffffff;
+}
+
+thead th:hover {
+    color: #ffffff;
+}
+
+thead th.active span.icon-arrow{
+    background-color: #ffffff;
+    color: #fff;
+}
+
+thead th.asc span.icon-arrow{
+    transform: rotate(180deg);
+}
+
+thead th.active,tbody td.active {
+    color: #ffffff;
+}
+
+.export__file {
+    position: relative;
+}
+
+.export__file .export__file-btn {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background: #fff6 url(https://lazyvn.github.io/img/nencss.JPG) center / 80% no-repeat;
+    border-radius: 50%;
+    transition: .2s ease-in-out;
+}
+
+.export__file .export__file-btn:hover { 
+    background-color: #fff;
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+.export__file input {
+    display: none;
+}
+
+.export__file .export__file-options {
+    position: absolute;
+    right: 0;
+    
+    width: 12rem;
+    border-radius: .5rem;
+    overflow: hidden;
+    text-align: center;
+
+    opacity: 0;
+    transform: scale(.8);
+    transform-origin: top right;
+    
+    box-shadow: 0 .2rem .5rem rgb(255, 255, 255);
+    
+    transition: .2s;
+}
+
+.export__file input:checked + .export__file-options {
+    opacity: 1;
+    transform: scale(1);
+    z-index: 100;
+}
+
+.export__file .export__file-options label{
+    display: block;
+    width: 100%;
+    padding: .6rem 0;
+    background-color: #f2f2f2;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    transition: .2s ease-in-out;
+}
+
+.export__file .export__file-options label:first-of-type{
+    padding: 1rem 0;
+    background-color: #ffffff !important;
+}
+
+.export__file .export__file-options label:hover{
+    transform: scale(1.05);
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.export__file .export__file-options img{
+    width: 2rem;
+    height: auto;
 }
