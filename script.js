@@ -35,14 +35,14 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Mai Thanh Tùng", "Lazyvn", "Designer Website",],
+        strings: ["Mai Thanh Tùng,", "Lazyvn,", "Designer Website,",],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Certificate Apple,", "Chứng Chỉ Apple,", "Liên Hệ Mua Ngay ",],
+        strings: ["Certificate Apple,", "Chứng Chỉ Apple,", "Liên Hệ Mua Ngay,",],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
