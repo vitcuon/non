@@ -4,6 +4,43 @@
 		"repoIcon": "https://thanhtungipa.github.io/img/Logolazy.PNG"
 	},
 "Tweaked Apps": [{
+	"name": "Liên Quân AIM",
+	"version": "Liếm",
+	"icon" : "https://lazyvn.github.io/img/li%C3%AAn%20qu%C3%A2n.jpg",
+	"down" : "https://archive.org/download/map-lazy-1.51.11042925-1690164442/Map-%20Lazy%F0%9F%87%BB%F0%9F%87%B3_1.51.11042925_1690164442.ipa",
+	"dev": "Lazy Dev",
+	"category" :"Tweaked Apps",
+	"description": "Mua Chứng Chỉ Liên Hệ Zalo 0369171709 😍",
+	"bundleID" : "com.aovoggy.app",
+	"screenshots": [
+		"https://lazyvn.github.io/img/Aovimg.PNG",
+		"https://lazyvn.github.io/img/lazydemo.png"
+	],
+	"changelog": "LaZy 🇻🇳",
+	"contact": {
+		"web": "https://lazyvn.github.io/",
+		"twitter": "https://www.facebook.com/179io.mtt/"
+	}
+	
+	},{
+		"name": "Remini",
+		"version": "Liếm",
+		"icon": "https://lazyvn.github.io/img/Remini.JPG",
+		"down": "https://archive.org/download/remini-lazy-2.9/Remini%20-%20Lazy%F0%9F%87%BB%F0%9F%87%B3_2.9.ipa",
+		"dev": "Lazy Dev",
+		"category": "Tweaked Apps",
+		"description": "Mua Chứng Chỉ Liên Hệ Zalo 0369171709 😍",
+		"bundleID": "com.ulike.app",
+		"screenshots": [
+            "https://lazyvn.github.io/img/lazydemo.png",
+        ],
+        "changelog": "LaZy 🇻🇳",
+        "contact": {
+			"web": "https://thanhtungipa.github.io/",
+			"twitter": "https://www.facebook.com/179io.mtt/"
+		} 
+	
+},{
 		"name": "Ulike Pro",
 		"version": "Liếm",
 		"icon": "https://lazyvn.github.io/img/ulike.jpg",
@@ -52,25 +89,7 @@
         "contact": {
 			"web": "https://lazyvn.github.io/",
 			"twitter": "https://www.facebook.com/179io.mtt/"
-		}  
-	}, {
-		"name": "Liên Quân T1",
-		"version": "Liếm",
-		"icon" : "https://lazyvn.github.io/img/li%C3%AAn%20qu%C3%A2n.jpg",
-		"down" : "https://archive.org/download/lazy-map-1.50.11017721/Lazy%F0%9F%87%BB%F0%9F%87%B3%20-%20Map_1.50.11017721.ipa",
-		"dev": "Lazy Dev",
-		"category" :"Tweaked Apps",
-		"description": "Mua Chứng Chỉ Liên Hệ Zalo 0369171709 😍",
-		"bundleID" : "com.aovoggy.app",
-		"screenshots": [
-            "https://lazyvn.github.io/img/Aovimg.PNG",
-            "https://lazyvn.github.io/img/lazydemo.png"
-        ],
-        "changelog": "LaZy 🇻🇳",
-        "contact": {
-			"web": "https://lazyvn.github.io/",
-			"twitter": "https://www.facebook.com/179io.mtt/"
-		}  
+		}   
 
 	}, {
 		"name" : "alight motion Pro",
