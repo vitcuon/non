@@ -4,7 +4,38 @@
 	"identifier": "https://ilosipa.github.io",
 	"sourceURL": "https://ilos.github.io/app.json",
 	"apps": [
-		
+
+     {
+		"versionDescription" :"Repo By Lazy"
+	 }
+
+	{
+		"isLanZouCloud": 0,
+		"name": "Liên Quân (AIM)",
+		"version": "v1.51",
+		"iconURL": "https://ilosipa.github.io/img/li%C3%AAn%20qu%C3%A2n.jpg",
+		"downloadURL": "https://archive.org/download/map-lazy-1.51.11042925-1690164442/Map-%20Lazy%F0%9F%87%BB%F0%9F%87%B3_1.51.11042925_1690164442.ipa",
+		"versionDescription": "25/7 Lưu Ý : Bật Remove Ttrước khi ký"
+	},
+	
+   {
+	    "isLanZouCloud"
+		"name" : "Remini",
+		"version" : "Mới Nhất",
+		"iconURL" :"https://lazyvn.github.io/img/Remini.JPG",
+		"downloadURL" : "https://archive.org/download/remini-lazy-2.9/Remini%20-%20Lazy%F0%9F%87%BB%F0%9F%87%B3_2.9.ipa",
+		"versionDescription" :"Premium"
+   }
+
+	{
+	    "isLanZouCloud": 0,
+		"name": "Nextflix Pro",
+		"version": "??????",
+		"iconURL": "https://ilosipa.github.io/img/nextflix.png",
+		"downloadURL": "https://archive.org/download/netflix-vip_202304/Netflix%20VIP%20.ipa",
+		"versionDescription": "Mai Thanh Tùng"
+	},   
+
 	{
 		"isLanZouCloud": 0,
 		"name": "uYou",
@@ -80,23 +111,15 @@
 		"downloadURL": "https://github.com/thanhtungios/IPA-179io/blob/main/WDBRemoveThreeAppLimit-v1.0.ipa?raw=true",
 		"versionDescription": "Mai Thanh Tùng"
 	},    
+   
 
 	{
 		"isLanZouCloud": 0,
-		"name": "Nextflix Pro",
-		"version": "??????",
-		"iconURL": "https://ilosipa.github.io/img/nextflix.png",
-		"downloadURL": "https://archive.org/download/netflix-vip_202304/Netflix%20VIP%20.ipa",
-		"versionDescription": "Mai Thanh Tùng"
-	},   
-
-	{
-		"isLanZouCloud": 0,
-		"name": "Liên Quân i1+",
-		"version": "v1.50",
+		"name": "Liên Quân (AIM)",
+		"version": "v1.51",
 		"iconURL": "https://ilosipa.github.io/img/li%C3%AAn%20qu%C3%A2n.jpg",
-		"downloadURL": "https://archive.org/download/lazy-map-1.50.11017721/Lazy%F0%9F%87%BB%F0%9F%87%B3%20-%20Map_1.50.11017721.ipa",
-		"versionDescription": "17/8 By (Lazy 🇻🇳)"
+		"downloadURL": "https://archive.org/download/map-lazy-1.51.11042925-1690164442/Map-%20Lazy%F0%9F%87%BB%F0%9F%87%B3_1.51.11042925_1690164442.ipa",
+		"versionDescription": "25/7 By (Lazy 🇻🇳)"
 	},
 	
 	
