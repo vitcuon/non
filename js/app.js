@@ -1,6 +1,6 @@
 $(function(){
     var inputVal;
-    let API_Key = "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";
+    let API_Key = "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";
     function renderMesGPT(incoming){
         let API_URL = "https://api.openai.com/v1/chat/completions";
         let chatbox  = document.querySelector(".chatbox")
