@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>shadowSettings</key>
+			<dict>
+				<key>shadowProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerURL</key>
+				<string>https://isteal-it.com/shadow.conf</string>
+			</dict>
+			<key>PayloadDisplayName</key>
+			<string>Alightmotion Pro</string>
+			<key>PayloadIdentifier</key>
+			<string>io.shadow.a7cf95.profile.shadowSettings.managed</string>
+			<key>PayloadOrganization</key>
+			<string>Lazyvn</string>
+			<key>PayloadType</key> 
+			<string>com.apple.shadowSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.a7cf95</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerURL</key>
+				<string>https://isteal-it.com/shadow.conf</string>
+			</dict>
+			<key>PayloadDisplayName</key>
+			<string>Alight Motion Pro</string>
+			<key>PayloadIdentifier</key>
+			<string>io.shadow.881bd9.profile.shadowtSettings.managed</string>
+			<key>PayloadOrganization</key>
+			<string>Lazyvn</string>
+			<key>PayloadType</key>
+			<string>com.apple.shadowSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.881bd9</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Alightmotion Pro By Lazy</string>
+	<key>PayloadDisplayName</key>
+	<string>Alight Motion</string>
+	<key>PayloadIdentifier</key>
+	<string>shadow.conf.io</string>
+	<key>PayloadScope</key>
+	<string>User</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
