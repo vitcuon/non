@@ -4,9 +4,7 @@
 	"identifier": "https://ilosipa.github.io",
 	"sourceURL": "https://ilos.github.io/app.json",
 	"apps": [
-       },
 
-     	
 
 	{
 		"isLanZouCloud": 0,
@@ -18,7 +16,7 @@
 	},
 	
    {
-	    "isLanZouCloud"
+	    "isLanZouCloud": 0,
 		"name" : "Remini",
 		"version" : "Mới Nhất",
 		"iconURL" :"https://lazyvn.github.io/img/Remini.JPG",
