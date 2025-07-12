@@ -62,9 +62,10 @@ async def nap(update: Update, context: ContextTypes.DEFAULT_TYPE):
     save_json('pending.json', pending)
 
     await update.message.reply_text(
-        f"💳 Vui lòng chuyển khoản theo thông tin sau:\n\n"
-        f"- 📲 *STK:* `99999999179`\n"
+        f"- 🏦Vui lòng chuyển khoản theo thông tin sau:\n\n"
+        f"- 🏦 *STK:* `0924648454`\n"
         f"- 🏦 *Ngân hàng:* MB Bank\n"
+        f"- 🏪 *Tran Thi Nhu Mai\n"
         f"- 💬 *Nội dung:* `{user_id}`\n"
         f"- 💰 *Số tiền:* `{sotien:,} VND`\n\n"
         "Sau đó gửi ảnh chuyển khoản vào bot để admin duyệt.",
