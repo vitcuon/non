@@ -63,7 +63,7 @@ async def nap(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     await update.message.reply_text(
         f"💳 Vui lòng chuyển khoản theo thông tin sau:\n\n"
-        f"- 📲 *STK:* `0971487462`\n"
+        f"- 📲 *STK:* `99999999179`\n"
         f"- 🏦 *Ngân hàng:* MB Bank\n"
         f"- 💬 *Nội dung:* `{user_id}`\n"
         f"- 💰 *Số tiền:* `{sotien:,} VND`\n\n"
