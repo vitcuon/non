@@ -1,24 +1,2 @@
-{
-  {"name": "Krixi Tatsumaki", "heroId": 106, "skinId": 11},
-  {"name": "Krixi Phù Thủy Thời Không", "heroId": 106, "skinId": 20},
-  {"name": "Violet Huyết Ma Thần", "heroId": 111, "skinId": 13},
-  {"name": "Violet Vọng Nguyệt Long Cơ", "heroId": 111, "skinId": 19},
-  {"name": "Violet Nobara Kugisaki", "heroId": 111, "skinId": 20},
-  {"name": "Yorn Conan Edogawa", "heroId": 112, "skinId": 15},
-  {"name": "Airi Bích Hải Thánh Nữ", "heroId": 130, "skinId": 11},
-  {"name": "Hayate Tu Di Thánh Đế", "heroId": 132, "skinId": 10},
-  {"name": "Hayate Siêu Đạo Chích Kid", "heroId": 132, "skinId": 13}, 
-  {"name": "Iumia Khải Huyền Thiên Hậu", "heroId": 136, "skinId": 09},  
-  {"name": "Lauriel Thứ Nguyên Vệ Thần", "heroId": 141, "skinId": 11},
-  {"name": "Lauriel Mã Đằng Cửu Thế", "heroId": 141, "skinId": 20},
-  {"name": "Nakroth Quỷ Thương Liệp Đế", "heroId": 150, "skinId": 13},
-  {"name": "Nakroth Bạch Diện Chiến Thương", "heroId": 150, "skinId": 15},
-  {"name": "Raz Bão vũ Cuồng lôi", "heroId": 157, "skinId": 10},
-  {"name": "Ngộ Không EVO 5", "heroId": 167, "skinId": 07},
-  {"name": "Elando'rr Mộng Giới Thần", "heroId": 199, "skinId": 08},
-  {"name": "Capheny Càn Nguyên Điện Chủ", "heroId": 524, "skinId": 14},
-  {"name": "Bijan Kình thiên Long Kỵ", "heroId": 548, "skinId": 04},
-  {"name": "Biron Yuji Itadori", "heroId": 597, "skinId": 02},
-  {"name": "Billow Thiên Tướng - Độ Ách", "heroId": 599, "skinId": 1},
-  {"name": "Bolt Baron Thiên Phủ - Tư Mệnh", "heroId": 598, "skinId": 2}
-}
+   { "id":"150","name":"Nakroth Quỷ Thương Liệp Đế" },
+   { "id":"150","name":"Nakroth Bạch Diện Chiến Thương" }
